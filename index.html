@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link href="estilos/estilo.css" rel="stylesheet">
+    <title>Exercício Aula 17-10</title>
+</head>
+<body>
+    <div class="containerparc">
+        <div class="cssform">
+            <div class="alinharform">
+                <label class="lb1">Valor Compra:</label>
+                <input type="text"  id="vldacompra" size="20" placeholder="insira o valor">
+
+                <br><br>
+
+                <label class="lb2">Parcelas:</label>
+                <select id="qtdeparcela">
+                    <option value="0"> ***Selecione*** </option>
+                    <option value="1">Parcela 1</option>
+                    <option value="2">Parcela 2</option>
+                    <option value="3">Parcela 3</option>
+                    <option value="4">Parcela 4</option>
+                    <option value="5">Parcela 5</option>
+                    <option value="6">Parcela 6</option>
+                    <option value="7">Parcela 7</option>
+                    <option value="8">Parcela 8</option>
+                    <option value="9">Parcela 9</option>
+                    <option value="10">Parcela 10</option>
+                </select>
+
+                <br><br>
+                <div>
+                    <label class="lb3">Valor da Parcela:</label>
+                    <input type="text" id="vldaparcela" size="20" readonly >
+                </div>
+            </div>
+            <br><br>
+
+            <input type="button" value="Calcular" onclick="calc()">
+        </div>
+    </div>  
+    <br><br><br>
+
+    <div class="containerblocos">
+
+        <div class="cssar1">
+            <div class="area1">
+                <div id="un" class="um"><h2>01</h2></div>
+                <br>
+                <div>
+                    <input type="button" value="Calcula Área" id="calcArea" onclick="calcarea1()">
+                    <input type="text" id="area01" size="20" placeholder="Área 01" readonly>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="cssar2">
+            <div class="area2">
+                <div class="dois"><h2>02</h2></div>
+                <br>
+                <div>
+                    <input type="button" value="Calcula Área" id="calcArea" onclick="calcarea2()">
+                    <input type="text" id="area02"  size="20" placeholder="Área 02" readonly>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="areatotal">
+            <input type="button" value="Calcula Área" id="areatotal" onclick="calcareatotal()">
+            <input type="text" id="areattl" size="20" placeholder="Área Total" readonly>
+        </div>
+        <br>
+        <input type="button" size="18"  value="Calcular" id="areatotal" onclick="calcarea1() + calcarea2() + calcareatotal()">
+        
+    </div>
+
+
+    <script type="text/javascript" src="js/arq.js"></script>
+</body>
+</html>
