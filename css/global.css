@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --color-primary: ;
+    --color-secondary: ;
+    --color-highlight: ;
+    --color-danger: ;
+    --color-light: ;
+    --color-sucess: ;
+  
+  
+    /* Dark shades */
+    --color-shade: ;
+    --color-darkish: ;
+    --color-dark: ;
+    --color-darkest: ;
+  }

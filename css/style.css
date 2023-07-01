@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.containerparc {
+.container {
   background-color: #ffffff2a;
   box-shadow: #000000 10px 10px 10px;
   border-radius: 30px;
@@ -58,20 +58,16 @@ body {
 
 .select,
 .vlCompra {
-  background: none;
+  background-color:  ;
   border: none;
 }
 
 .select option {
   background: none;
   border: none;
-  color: #fff;
+  /* color: #fff; */
 }
 
-option {
-  color: #000;
-  background: fixed;
-}
 
 .containerblocos {
   background-color: #ffffff2a;

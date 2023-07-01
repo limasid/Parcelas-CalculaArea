@@ -10,23 +10,25 @@
     <title>Exercício Aula 17-10</title>
   </head>
   <body>
-    <div class="containerparc">
+    <div class="container">
       <div class="cssform">
         <div class="alinharform">
           <div>
-            <label class="lb1">Valor Compra:</label>
             <input
               type="text"
               class="vlCompra"
               id="vldacompra"
               size="20"
-              placeholder="insira o valor"
+              placeholder="Insira o valor"
+              style="text-align: center;
+               background-color: bisque;
+               border-radius: 2rem;
+               "
             />
           </div>
           <div>
-            <label class="lb2" for="qtdparc">Parcelas:</label>
             <select id="qtdparc" class="select">
-              <option value="0">---Select---</option>
+              <option value="0">---Selecionar Parcelas---</option>
               <option value="1">x1</option>
               <option value="2">x2</option>
               <option value="3">x3</option>
@@ -40,8 +42,17 @@
             </select>
           </div>
           <div>
-            <label class="lb3">Valor da Parcela:</label>
-            <input type="text" id="vldaparcela" size="20" readonly />
+            <input
+              type="text"
+              id="vldaparcela"
+              size="20"
+              readonly
+              placeholder="Installments Value"
+              style="text-align: center;
+               background-color: bisque;
+               border-radius: 2rem;"
+              
+            />
           </div>
         </div>
         <br /><br />
